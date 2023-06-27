@@ -1,17 +1,17 @@
 import qrcode
 
-def generar_qr(ruta, nombre_qr, link):
+def generar_qr(path, name_qr, link):
     qr = qrcode.QRCode(version=1, box_size=5, border=5)
     qr.add_data(link)
     qr.make()
     img = qr.make_image(fill_color='black', back_color='white')
-    img.save(f'{ruta}{nombre_qr}')
+    img.save(f'{path}{name_qr}')
 
-RUTA = "/home/andresfv/Proyectos-Python/generador-qr/imagenes-qr/"
-NOMBREQR = input("Nombre del qr (dejar vacío para no generar qr): ")
+PATH = "/home/andresfv/Proyectos-Python/generador-qr/imagenes-qr/" #path where you want the files to be
+NAMEQR = input("Name QR (dejar vacío para no generar qr): ")
 
-if NOMBREQR:
-    if not NOMBREQR.endswith('.png'):
-        NOMBREQR += '.png'
+if NAMEQR:
+    if not NAMEQR.endswith('.png'):
+        NAMEQR += '.png'
     website_link = input('Link web: ')
-    generar_qr(RUTA, NOMBREQR, website_link)
+    generar_qr(PATH, NAMEQR, website_link)
