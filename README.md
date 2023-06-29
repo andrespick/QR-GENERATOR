@@ -1,5 +1,5 @@
 # QR-GENERATOR
-Generador de QR en Python utilizando las bibliotecas Qrcode, Pillow y Tkinter
+QR generator in Python using the Qrcode, Pillow and Tkinter libraries
 
 Python 3.10.6
 
