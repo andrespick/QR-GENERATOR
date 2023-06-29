@@ -1,2 +1,5 @@
 generatorven/
 .exe
+__pycache__/
+hello.py
+output/
