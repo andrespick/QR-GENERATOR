@@ -23,6 +23,7 @@ def generate_qr():
 
 window = tk.Tk()
 window.title("QR Code Generator")
+window.minsize(300,100)
 
 label_name = tk.Label(window, text="Name QR:")
 label_name.pack()
