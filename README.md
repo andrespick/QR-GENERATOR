@@ -3,6 +3,8 @@ QR generator in Python using the Qrcode, Pillow and Tkinter libraries
 
 Python 3.10.6
 
+![image](https://github.com/andrespick/QR-GENERATOR/assets/38870504/c1a050d7-8cac-4e67-a096-8c13f5a26cd4)
+
 ## Generate QR codes
 For the program to work correctly you have to install the <a href="https://pypi.org/project/qrcode/" target="_blank">qrcode</a> :
 
